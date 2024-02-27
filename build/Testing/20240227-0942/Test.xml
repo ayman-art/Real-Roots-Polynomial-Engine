@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20240227-0942-Experimental"
+	Name="DELL_AYMAN"
+	Generator="ctest-3.28.3"
+	CompilerName="C:/MinGW/bin/g++.exe"
+	CompilerVersion="12.2.0"
+	OSName="Windows"
+	Hostname="DELL_AYMAN"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="0"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="31285"
+	TotalPhysicalMemory="15720"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3194"
+	>
+	<Testing>
+		<StartDateTime>Feb 27 11:46 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</StartDateTime>
+		<StartTestTime>1709027185</StartTestTime>
+		<TestList>
+			<Test>./UnitTesting/Poly.Return1</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Poly.Return1</Name>
+			<Path>./UnitTesting</Path>
+			<FullName>./UnitTesting/Poly.Return1</FullName>
+			<FullCommandLine>C:\Projects\Real-Roots-Polynomial-Engine\build\UnitTesting\Test1.exe "--gtest_filter=Poly.Return1" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0261183</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Projects\Real-Roots-Polynomial-Engine\build\UnitTesting\Test1.exe "--gtest_filter=Poly.Return1" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMFqwzAMvfsrdGwOMQ3sVOhhbKWHQRfS9ZSE4aVq8HCkYSsb+/vFSSltYGM6yU/P7z2p6IkstdAZS4sETp47eFhVued3bCRUBRqXFswS0pzdN3FnB2BDrSWsDmTlBYMMAlXL3DqU4ZVmOrvTyyukCr6p2ti9Rh/dNGrHgivYjhSIGnCyTtDDGqKPLlB6T5kq15eqoTiHzUDGHzHsuQ+9FdSqTC9Vw9bxm3HTHOnTeqYOaeCipP3HjHytGROoEorDDsaqZ5kmFJ6fZhNYLKELyd/CEwmExbhE/S+xoPHpkb/o9h6/3QG8IX3rM2TO7/f7zWPcZuJq9QPMZaGo====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 27 11:46 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</EndDateTime>
+		<EndTestTime>1709027185</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

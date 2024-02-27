@@ -1,0 +1,5 @@
+if(EXISTS "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/testKeyboard[1]_tests.cmake")
+  include("C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/testKeyboard[1]_tests.cmake")
+else()
+  add_test(testKeyboard_NOT_BUILT testKeyboard_NOT_BUILT)
+endif()

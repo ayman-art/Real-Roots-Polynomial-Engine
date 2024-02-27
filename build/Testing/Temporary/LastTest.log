@@ -1,0 +1,30 @@
+Start testing: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
+----------------------------------------------------------
+1/1 Testing: Poly.Return1
+1/1 Test: Poly.Return1
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=Poly.Return1" "--gtest_also_run_disabled_tests"
+Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
+"Poly.Return1" start time: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
+Output:
+----------------------------------------------------------
+Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
+Note: Google Test filter = Poly.Return1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Poly
+[ RUN      ] Poly.Return1
+[       OK ] Poly.Return1 (0 ms)
+[----------] 1 test from Poly (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Poly.Return1" end time: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
+"Poly.Return1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
