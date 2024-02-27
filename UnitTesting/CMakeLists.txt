@@ -17,4 +17,3 @@ target_include_directories(Test1 PRIVATE ${PolyEngine_SOURCE_DIR})
 
 target_link_libraries(Test1 engine GTest::gtest_main)
 gtest_discover_tests(Test1) # this will discover and run the tests
-

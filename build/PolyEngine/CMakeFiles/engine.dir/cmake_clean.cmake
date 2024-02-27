@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/engine.dir/engine.cpp.obj"
+  "CMakeFiles/engine.dir/engine.cpp.obj.d"
   "CMakeFiles/engine.dir/poly.cpp.obj"
   "CMakeFiles/engine.dir/poly.cpp.obj.d"
   "libengine.a"

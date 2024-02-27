@@ -1,3 +1,31 @@
-Start testing: Feb 27 12:06 „’— - «· ÊﬁÌ  «·—”„Ì
+Start testing: Feb 27 14:22 „’— - «· ÊﬁÌ  «·—”„Ì
 ----------------------------------------------------------
-End testing: Feb 27 12:06 „’— - «· ÊﬁÌ  «·—”„Ì
+1/1 Testing: Polynomial.Polynomial
+1/1 Test: Polynomial.Polynomial
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=Polynomial.Polynomial" "--gtest_also_run_disabled_tests"
+Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
+"Polynomial.Polynomial" start time: Feb 27 14:22 „’— - «· ÊﬁÌ  «·—”„Ì
+Output:
+----------------------------------------------------------
+Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
+Note: Google Test filter = Polynomial.Polynomial
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Polynomial
+[ RUN      ] Polynomial.Polynomial
+The coefficients are the same
+[       OK ] Polynomial.Polynomial (0 ms)
+[----------] 1 test from Polynomial (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Polynomial.Polynomial" end time: Feb 27 14:22 „’— - «· ÊﬁÌ  «·—”„Ì
+"Polynomial.Polynomial" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 27 14:22 „’— - «· ÊﬁÌ  «·—”„Ì

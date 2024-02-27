@@ -922,12 +922,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 PolyEngine/CMakeFiles/engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f PolyEngine\CMakeFiles\engine.dir\build.make PolyEngine/CMakeFiles/engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f PolyEngine\CMakeFiles\engine.dir\build.make PolyEngine/CMakeFiles/engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=3,4 "Built target engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=3,4,5 "Built target engine"
 .PHONY : PolyEngine/CMakeFiles/engine.dir/all
 
 # Build rule for subdir invocation for target.
 PolyEngine/CMakeFiles/engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PolyEngine/CMakeFiles/engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles 0
 .PHONY : PolyEngine/CMakeFiles/engine.dir/rule
@@ -946,8 +946,8 @@ PolyEngine/CMakeFiles/engine.dir/clean:
 
 # All Build rule for target.
 UnitTesting/CMakeFiles/Test1.dir/all: PolyEngine/CMakeFiles/engine.dir/all
-UnitTesting/CMakeFiles/Test1.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 UnitTesting/CMakeFiles/Test1.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/all
+UnitTesting/CMakeFiles/Test1.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\Test1.dir\build.make UnitTesting/CMakeFiles/Test1.dir/depend
 	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\Test1.dir\build.make UnitTesting/CMakeFiles/Test1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=1,2 "Built target Test1"
@@ -955,7 +955,7 @@ UnitTesting/CMakeFiles/Test1.dir/all: UnitTesting/googletest-1.14.0/googletest/C
 
 # Build rule for subdir invocation for target.
 UnitTesting/CMakeFiles/Test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnitTesting/CMakeFiles/Test1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles 0
 .PHONY : UnitTesting/CMakeFiles/Test1.dir/rule
@@ -976,7 +976,7 @@ UnitTesting/CMakeFiles/Test1.dir/clean:
 UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googlemock\CMakeFiles\gmock.dir\build.make UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googlemock\CMakeFiles\gmock.dir\build.make UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=5,6 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=6,7 "Built target gmock"
 .PHONY : UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1003,7 +1003,7 @@ UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/all: UnitTest
 UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googlemock\CMakeFiles\gmock_main.dir\build.make UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googlemock\CMakeFiles\gmock_main.dir\build.make UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=7,8 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=8,9 "Built target gmock_main"
 .PHONY : UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1029,7 +1029,7 @@ UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/clean:
 UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googletest\CMakeFiles\gtest.dir\build.make UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googletest\CMakeFiles\gtest.dir\build.make UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=10,11 "Built target gtest"
 .PHONY : UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1055,7 +1055,7 @@ UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/clean:
 UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googletest\CMakeFiles\gtest_main.dir\build.make UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f UnitTesting\googletest-1.14.0\googletest\CMakeFiles\gtest_main.dir\build.make UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=11,12 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=12,13 "Built target gtest_main"
 .PHONY : UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

@@ -179,6 +179,41 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GoogleTest.cmake"
 		},
 		{

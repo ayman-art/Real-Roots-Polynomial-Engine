@@ -184,6 +184,30 @@ engine/fast:
 	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f PolyEngine\CMakeFiles\engine.dir\build.make PolyEngine/CMakeFiles/engine.dir/build
 .PHONY : engine/fast
 
+engine.obj: engine.cpp.obj
+.PHONY : engine.obj
+
+# target to build an object file
+engine.cpp.obj:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f PolyEngine\CMakeFiles\engine.dir\build.make PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj
+.PHONY : engine.cpp.obj
+
+engine.i: engine.cpp.i
+.PHONY : engine.i
+
+# target to preprocess a source file
+engine.cpp.i:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f PolyEngine\CMakeFiles\engine.dir\build.make PolyEngine/CMakeFiles/engine.dir/engine.cpp.i
+.PHONY : engine.cpp.i
+
+engine.s: engine.cpp.s
+.PHONY : engine.s
+
+# target to generate assembly for a file
+engine.cpp.s:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f PolyEngine\CMakeFiles\engine.dir\build.make PolyEngine/CMakeFiles/engine.dir/engine.cpp.s
+.PHONY : engine.cpp.s
+
 poly.obj: poly.cpp.obj
 .PHONY : poly.obj
 
@@ -222,6 +246,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... engine
+	@echo ... engine.obj
+	@echo ... engine.i
+	@echo ... engine.s
 	@echo ... poly.obj
 	@echo ... poly.i
 	@echo ... poly.s

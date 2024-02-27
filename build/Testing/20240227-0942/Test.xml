@@ -18,17 +18,45 @@
 	ProcessorCacheSize="64"
 	NumberOfLogicalCPU="16"
 	NumberOfPhysicalCPU="8"
-	TotalVirtualMemory="32491"
+	TotalVirtualMemory="34861"
 	TotalPhysicalMemory="15720"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3194"
+	ProcessorClockFrequency="3193"
 	>
 	<Testing>
-		<StartDateTime>Feb 27 12:06 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</StartDateTime>
-		<StartTestTime>1709028365</StartTestTime>
-		<TestList/>
-		<EndDateTime>Feb 27 12:06 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</EndDateTime>
-		<EndTestTime>1709028365</EndTestTime>
+		<StartDateTime>Feb 27 14:22 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</StartDateTime>
+		<StartTestTime>1709036543</StartTestTime>
+		<TestList>
+			<Test>./UnitTesting/Polynomial.Polynomial</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>Polynomial.Polynomial</Name>
+			<Path>./UnitTesting</Path>
+			<FullName>./UnitTesting/Polynomial.Polynomial</FullName>
+			<FullCommandLine>C:\Projects\Real-Roots-Polynomial-Engine\build\UnitTesting\Test1.exe "--gtest_filter=Polynomial.Polynomial" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0399219</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Projects\Real-Roots-Polynomial-Engine\build\UnitTesting\Test1.exe "--gtest_filter=Polynomial.Polynomial" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUE1rwzAMvedX6NgcYhrYqdDD2EoPgy6k7akJw0uVzMORhq1s7N/PSUo/BoG+kyw9v/ekvCMy1ECrDc1iqB238LQoMsefWIkvctQ2yZnFJxnbX+LWhMaKGkNY7MnIDr0EgaJhbixKeCWpSh/U/KpTeFcVTV+99T6qqqINCy5gPVCg14DaWEEHS7j4qEsZHZZnlJCfUqcgw9c+9an2nRFU0SE5o4S15XdtxznSt3FMLVLgoiTd1z/ytea1P+T7DQwoJyLuPhAqxro2lQnyHrRDkND0usUgMOL1ZUoAZnNofXxPnJEKwqJtHN23raB2yZF/6PaWUzcEp0nd+oQVssftdvXc32DkqugPkua9PQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Feb 27 14:22 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</EndDateTime>
+		<EndTestTime>1709036543</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

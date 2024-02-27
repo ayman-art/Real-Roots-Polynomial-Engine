@@ -1,6 +1,12 @@
 [
 {
   "directory": "C:/Projects/Real-Roots-Polynomial-Engine/build/PolyEngine",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\engine.dir\\engine.cpp.obj -c C:\\Projects\\Real-Roots-Polynomial-Engine\\PolyEngine\\engine.cpp",
+  "file": "C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/engine.cpp",
+  "output": "PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj"
+},
+{
+  "directory": "C:/Projects/Real-Roots-Polynomial-Engine/build/PolyEngine",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/engine.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\engine.dir\\poly.cpp.obj -c C:\\Projects\\Real-Roots-Polynomial-Engine\\PolyEngine\\poly.cpp",
   "file": "C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/poly.cpp",
   "output": "PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj"

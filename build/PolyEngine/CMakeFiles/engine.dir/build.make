@@ -68,11 +68,26 @@ include PolyEngine/CMakeFiles/engine.dir/progress.make
 # Include the compile flags for this target's objects.
 include PolyEngine/CMakeFiles/engine.dir/flags.make
 
+PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj: PolyEngine/CMakeFiles/engine.dir/flags.make
+PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj: PolyEngine/CMakeFiles/engine.dir/includes_CXX.rsp
+PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj: C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/engine.cpp
+PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj: PolyEngine/CMakeFiles/engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj"
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build\PolyEngine && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj -MF CMakeFiles\engine.dir\engine.cpp.obj.d -o CMakeFiles\engine.dir\engine.cpp.obj -c C:\Projects\Real-Roots-Polynomial-Engine\PolyEngine\engine.cpp
+
+PolyEngine/CMakeFiles/engine.dir/engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine.dir/engine.cpp.i"
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build\PolyEngine && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Projects\Real-Roots-Polynomial-Engine\PolyEngine\engine.cpp > CMakeFiles\engine.dir\engine.cpp.i
+
+PolyEngine/CMakeFiles/engine.dir/engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine.dir/engine.cpp.s"
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build\PolyEngine && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Projects\Real-Roots-Polynomial-Engine\PolyEngine\engine.cpp -o CMakeFiles\engine.dir\engine.cpp.s
+
 PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj: PolyEngine/CMakeFiles/engine.dir/flags.make
 PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj: PolyEngine/CMakeFiles/engine.dir/includes_CXX.rsp
 PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj: C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/poly.cpp
 PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj: PolyEngine/CMakeFiles/engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj"
 	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build\PolyEngine && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj -MF CMakeFiles\engine.dir\poly.cpp.obj.d -o CMakeFiles\engine.dir\poly.cpp.obj -c C:\Projects\Real-Roots-Polynomial-Engine\PolyEngine\poly.cpp
 
 PolyEngine/CMakeFiles/engine.dir/poly.cpp.i: cmake_force
@@ -85,15 +100,17 @@ PolyEngine/CMakeFiles/engine.dir/poly.cpp.s: cmake_force
 
 # Object files for target engine
 engine_OBJECTS = \
+"CMakeFiles/engine.dir/engine.cpp.obj" \
 "CMakeFiles/engine.dir/poly.cpp.obj"
 
 # External object files for target engine
 engine_EXTERNAL_OBJECTS =
 
+PolyEngine/libengine.a: PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj
 PolyEngine/libengine.a: PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj
 PolyEngine/libengine.a: PolyEngine/CMakeFiles/engine.dir/build.make
 PolyEngine/libengine.a: PolyEngine/CMakeFiles/engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libengine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libengine.a"
 	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build\PolyEngine && $(CMAKE_COMMAND) -P CMakeFiles\engine.dir\cmake_clean_target.cmake
 	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build\PolyEngine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\engine.dir\link.txt --verbose=$(VERBOSE)
 
