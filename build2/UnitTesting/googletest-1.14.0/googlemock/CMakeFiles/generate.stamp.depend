@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/googletest-1.14.0/googlemock/CMakeLists.txt
+C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/googletest-1.14.0/googlemock/cmake/gmock.pc.in
+C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/googletest-1.14.0/googlemock/cmake/gmock_main.pc.in
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindThreads.cmake

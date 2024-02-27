@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/googletest-1.14.0/CMakeLists.txt
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+C:/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GNUInstallDirs.cmake

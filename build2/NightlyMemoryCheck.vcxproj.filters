@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Real-Roots-Polynomial-Engine\build2\CMakeFiles\a89d4ca3de1316c25c07694b1105d4e4\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Projects\Real-Roots-Polynomial-Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Projects\Real-Roots-Polynomial-Engine\build2\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{59D32555-C442-3B98-830A-E18C40692A8F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

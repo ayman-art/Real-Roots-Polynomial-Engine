@@ -1,5 +1,4 @@
 #include <gtest/gtest.h>
-
 #include "poly.h"
 
 TEST(Poly, Return1) {

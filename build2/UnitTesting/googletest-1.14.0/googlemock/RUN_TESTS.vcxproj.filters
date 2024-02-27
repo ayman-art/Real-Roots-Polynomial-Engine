@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Real-Roots-Polynomial-Engine\build2\CMakeFiles\9e4d7e010718b89a32d6618d1c15c597\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{59D32555-C442-3B98-830A-E18C40692A8F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

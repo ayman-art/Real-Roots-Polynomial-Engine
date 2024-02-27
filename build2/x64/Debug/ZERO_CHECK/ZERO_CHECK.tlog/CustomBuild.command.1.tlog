@@ -1,0 +1,10 @@
+^C:\PROJECTS\REAL-ROOTS-POLYNOMIAL-ENGINE\BUILD2\CMAKEFILES\A89D4CA3DE1316C25C07694B1105D4E4\GENERATE.STAMP.RULE
+setlocal
+C:\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SC:/Projects/Real-Roots-Polynomial-Engine -BC:/Projects/Real-Roots-Polynomial-Engine/build2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Projects/Real-Roots-Polynomial-Engine/build2/PolyEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

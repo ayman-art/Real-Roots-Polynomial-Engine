@@ -1,0 +1,16 @@
+# ninja log v5
+11	2540	7307369940454052	build.ninja	c7238e2726f0e9
+7	1051	7307369947696743	PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj	80d433e99888ee4a
+1052	1193	7307369948915778	PolyEngine/engine.lib	14eeedb302bc9ad1
+180	1719	7307369954411854	UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	999436a4182c9b8e
+26	1906	7307369956136279	UnitTesting/CMakeFiles/Test1.dir/test1.cpp.obj	e429d9fb04ed2aab
+138	1950	7307369956675281	UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	77262c1aa837c4ab
+120	2694	7307369964142507	UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	849d942d6f26ddb8
+82	2714	7307369964298750	UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	7ce80f3b71bb8028
+54	3667	7307369973709678	UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	45aa7ec8ba3eb0d2
+101	3714	7307369974190206	UnitTesting/googletest-1.14.0/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	38d09d9335c2b465
+3667	3838	7307369975292186	lib/gmock.lib	20e3483474abe5c1
+158	3863	7307369975766052	UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	270cc3a48c6d9ad7
+3714	3887	7307369975892472	lib/gmock_main.lib	ae5024009a1429fb
+3864	3997	7307369977019397	lib/gtest.lib	38435374a1c71e97
+3997	4095	7307369978120669	lib/gtest_main.lib	fdcba935bcaa1f43
