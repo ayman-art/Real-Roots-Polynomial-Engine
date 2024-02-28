@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include "poly.h"
 #include "engine.h"
+#include <cmath>
 
 TEST(PolyEngineTest, SolveTest1) {
     double arr[] = {1, -3, 2};
@@ -20,13 +21,13 @@ TEST(PolyEngineTest, SolveTest2) {
 TEST(PolyEngineTest, BisectTest1) {
     double arr[] = {1, -3, 2};
     Polynomial p(arr, 3);
-    ASSERT_EQ(PolyEngine::bisect(p, 1, 2), 1.0);
+    ASSERT_EQ(PolyEngine::bisect(p, 1.5, 2.5), 2.0);
 }
 
 TEST(PolyEngineTest, BisectTest2) {
     double arr[] = {1, -3, 2, 0};
     Polynomial p(arr, 4);
-    ASSERT_EQ(PolyEngine::bisect(p, 1, 2), 1.0);
+    ASSERT_TRUE(abs(PolyEngine::bisect(p, 0.2, 1.5).value() - 1.0) < 1e-6);
 }
 
 TEST(PolyEngineTest, PositiveInfinityTest) {

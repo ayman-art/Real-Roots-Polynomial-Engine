@@ -67,6 +67,7 @@ UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.obj: C:/Projects/Real-Roots
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_atomic.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_base.h \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/specfun.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/sstream.tcc \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/std_abs.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/std_function.h \
@@ -107,6 +108,7 @@ UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.obj: C:/Projects/Real-Roots
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cctype \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cerrno \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cmath \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/compare \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/condition_variable \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstddef \
@@ -155,6 +157,18 @@ UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.obj: C:/Projects/Real-Roots
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/string_view \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/system_error \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/bessel_function.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/beta_function.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/ell_integral.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/exp_integral.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/gamma.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/hypergeometric.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/legendre_function.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/modified_bessel_func.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/poly_hermite.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/poly_laguerre.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/riemann_zeta.tcc \
+  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/special_function_util.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tuple \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/typeinfo \
@@ -200,6 +214,7 @@ UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.obj: C:/Projects/Real-Roots
   C:/MinGW/x86_64-w64-mingw32/include/limits.h \
   C:/MinGW/x86_64-w64-mingw32/include/locale.h \
   C:/MinGW/x86_64-w64-mingw32/include/malloc.h \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
   C:/MinGW/x86_64-w64-mingw32/include/process.h \
   C:/MinGW/x86_64-w64-mingw32/include/pthread.h \
   C:/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
@@ -419,6 +434,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_atomic.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/shared_ptr_base.h:
 
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/specfun.h:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/sstream.tcc:
@@ -519,6 +536,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cerrno:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/clocale:
 
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cmath:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/compare:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/condition_variable:
@@ -532,6 +551,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdio:
 C:/MinGW/x86_64-w64-mingw32/include/ctype.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/cstdlib:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/ell_integral.tcc:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ctime:
 
@@ -570,6 +591,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/ext/type_traits.h:
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/functional:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/initializer_list:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/modified_bessel_func.tcc:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/iomanip:
 
@@ -619,6 +642,28 @@ C:/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/system_error:
 
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/bessel_function.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/beta_function.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/exp_integral.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/gamma.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/legendre_function.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/hypergeometric.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/poly_hermite.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/poly_laguerre.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/riemann_zeta.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tr1/special_function_util.h:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/tuple:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/type_traits:
@@ -638,8 +683,6 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
-
-C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cxxabi_tweaks.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
 
@@ -676,6 +719,8 @@ C:/MinGW/x86_64-w64-mingw32/include/io.h:
 C:/MinGW/x86_64-w64-mingw32/include/locale.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/malloc.h:
+
+C:/MinGW/x86_64-w64-mingw32/include/math.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/process.h:
 

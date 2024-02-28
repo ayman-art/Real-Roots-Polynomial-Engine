@@ -1,10 +1,10 @@
-Start testing: Feb 28 19:02 „’— - «· ÊﬁÌ  «·—”„Ì
+Start testing: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì
 ----------------------------------------------------------
 11/11 Testing: PolyEngineTest.NegativeInfinityTest
 11/11 Test: PolyEngineTest.NegativeInfinityTest
 Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/EngineTest.exe" "--gtest_filter=PolyEngineTest.NegativeInfinityTest" "--gtest_also_run_disabled_tests"
 Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
-"PolyEngineTest.NegativeInfinityTest" start time: Feb 28 19:02 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolyEngineTest.NegativeInfinityTest" start time: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì
 Output:
 ----------------------------------------------------------
 Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
@@ -23,8 +23,8 @@ Note: Google Test filter = PolyEngineTest.NegativeInfinityTest
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"PolyEngineTest.NegativeInfinityTest" end time: Feb 28 19:02 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolyEngineTest.NegativeInfinityTest" end time: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì
 "PolyEngineTest.NegativeInfinityTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 28 19:02 „’— - «· ÊﬁÌ  «·—”„Ì
+End testing: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì

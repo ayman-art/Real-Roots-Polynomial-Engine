@@ -21,11 +21,11 @@
 	TotalVirtualMemory="27328"
 	TotalPhysicalMemory="15720"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3193"
+	ProcessorClockFrequency="3194"
 	>
 	<Testing>
-		<StartDateTime>Feb 28 19:02 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</StartDateTime>
-		<StartTestTime>1709139779</StartTestTime>
+		<StartDateTime>Feb 28 19:17 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</StartDateTime>
+		<StartTestTime>1709140646</StartTestTime>
 		<TestList>
 			<Test>./UnitTesting/PolyEngineTest.NegativeInfinityTest</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>C:\Projects\Real-Roots-Polynomial-Engine\build\UnitTesting\EngineTest.exe "--gtest_filter=PolyEngineTest.NegativeInfinityTest" "--gtest_also_run_disabled_tests"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0218164</Value>
+					<Value>0.0209707</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -55,8 +55,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Feb 28 19:02 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</EndDateTime>
-		<EndTestTime>1709139779</EndTestTime>
+		<EndDateTime>Feb 28 19:17 [NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xD5][NON-UTF-8-BYTE-0xD1] - [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xCA][NON-UTF-8-BYTE-0xE6][NON-UTF-8-BYTE-0xDE][NON-UTF-8-BYTE-0xED][NON-UTF-8-BYTE-0xCA] [NON-UTF-8-BYTE-0xC7][NON-UTF-8-BYTE-0xE1][NON-UTF-8-BYTE-0xD1][NON-UTF-8-BYTE-0xD3][NON-UTF-8-BYTE-0xE3][NON-UTF-8-BYTE-0xED]</EndDateTime>
+		<EndTestTime>1709140646</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
