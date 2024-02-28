@@ -63,8 +63,10 @@ std::optional<double> PolyEngine::bisect(const Polynomial& p, double a, double b
 }
 
 std::optional<double> PolyEngine::bisectWithPosInf(const Polynomial& p, double a, double epsilon) {
-    if(p.substitute(a) > 0 && p.computeDerivate().substitute(a) > 0 
-        && p.substitute(a) < 0 && p.computeDerivate().substitute(a) < 0){
+    if(p.substitute(a) < 0 && p.computeDerivate().substitute(a) > 0) {
+        return std::nullopt;
+    }
+    if(p.substitute(a) > 0 && p.computeDerivate().substitute(a) < 0) {
         return std::nullopt;
     }
 
@@ -82,8 +84,11 @@ std::optional<double> PolyEngine::bisectWithPosInf(const Polynomial& p, double a
 }
 
 std::optional<double> PolyEngine::bisectWithNegInf(const Polynomial& p, double a, double epsilon) {
-    if(p.substitute(a) < 0 && p.computeDerivate().substitute(a) > 0
-        && p.substitute(a) > 0 && p.computeDerivate().substitute(a) < 0){
+    
+    if(p.substitute(a) < 0 && p.computeDerivate().substitute(a) < 0) {
+        return std::nullopt;
+    }
+    if(p.substitute(a) > 0 && p.computeDerivate().substitute(a) > 0) {
         return std::nullopt;
     }
 

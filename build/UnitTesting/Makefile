@@ -198,6 +198,34 @@ EngineTest/fast:
 	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/build
 .PHONY : EngineTest/fast
 
+# Convenience name for target.
+UnitTesting/CMakeFiles/ExtensiveTest.dir/rule:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnitTesting/CMakeFiles/ExtensiveTest.dir/rule
+.PHONY : UnitTesting/CMakeFiles/ExtensiveTest.dir/rule
+
+# Convenience name for target.
+ExtensiveTest: UnitTesting/CMakeFiles/ExtensiveTest.dir/rule
+.PHONY : ExtensiveTest
+
+# fast build rule for target.
+ExtensiveTest/fast:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExtensiveTest.dir\build.make UnitTesting/CMakeFiles/ExtensiveTest.dir/build
+.PHONY : ExtensiveTest/fast
+
+# Convenience name for target.
+UnitTesting/CMakeFiles/ExecutedTest.dir/rule:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnitTesting/CMakeFiles/ExecutedTest.dir/rule
+.PHONY : UnitTesting/CMakeFiles/ExecutedTest.dir/rule
+
+# Convenience name for target.
+ExecutedTest: UnitTesting/CMakeFiles/ExecutedTest.dir/rule
+.PHONY : ExecutedTest
+
+# fast build rule for target.
+ExecutedTest/fast:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExecutedTest.dir\build.make UnitTesting/CMakeFiles/ExecutedTest.dir/build
+.PHONY : ExecutedTest/fast
+
 engineTest.obj: engineTest.cpp.obj
 .PHONY : engineTest.obj
 
@@ -221,6 +249,54 @@ engineTest.s: engineTest.cpp.s
 engineTest.cpp.s:
 	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.s
 .PHONY : engineTest.cpp.s
+
+executedTest.obj: executedTest.cpp.obj
+.PHONY : executedTest.obj
+
+# target to build an object file
+executedTest.cpp.obj:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExecutedTest.dir\build.make UnitTesting/CMakeFiles/ExecutedTest.dir/executedTest.cpp.obj
+.PHONY : executedTest.cpp.obj
+
+executedTest.i: executedTest.cpp.i
+.PHONY : executedTest.i
+
+# target to preprocess a source file
+executedTest.cpp.i:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExecutedTest.dir\build.make UnitTesting/CMakeFiles/ExecutedTest.dir/executedTest.cpp.i
+.PHONY : executedTest.cpp.i
+
+executedTest.s: executedTest.cpp.s
+.PHONY : executedTest.s
+
+# target to generate assembly for a file
+executedTest.cpp.s:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExecutedTest.dir\build.make UnitTesting/CMakeFiles/ExecutedTest.dir/executedTest.cpp.s
+.PHONY : executedTest.cpp.s
+
+extensiveTesting.obj: extensiveTesting.cpp.obj
+.PHONY : extensiveTesting.obj
+
+# target to build an object file
+extensiveTesting.cpp.obj:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExtensiveTest.dir\build.make UnitTesting/CMakeFiles/ExtensiveTest.dir/extensiveTesting.cpp.obj
+.PHONY : extensiveTesting.cpp.obj
+
+extensiveTesting.i: extensiveTesting.cpp.i
+.PHONY : extensiveTesting.i
+
+# target to preprocess a source file
+extensiveTesting.cpp.i:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExtensiveTest.dir\build.make UnitTesting/CMakeFiles/ExtensiveTest.dir/extensiveTesting.cpp.i
+.PHONY : extensiveTesting.cpp.i
+
+extensiveTesting.s: extensiveTesting.cpp.s
+.PHONY : extensiveTesting.s
+
+# target to generate assembly for a file
+extensiveTesting.cpp.s:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExtensiveTest.dir\build.make UnitTesting/CMakeFiles/ExtensiveTest.dir/extensiveTesting.cpp.s
+.PHONY : extensiveTesting.cpp.s
 
 test1.obj: test1.cpp.obj
 .PHONY : test1.obj
@@ -260,10 +336,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... EngineTest
+	@echo ... ExecutedTest
+	@echo ... ExtensiveTest
 	@echo ... Test1
 	@echo ... engineTest.obj
 	@echo ... engineTest.i
 	@echo ... engineTest.s
+	@echo ... executedTest.obj
+	@echo ... executedTest.i
+	@echo ... executedTest.s
+	@echo ... extensiveTesting.obj
+	@echo ... extensiveTesting.i
+	@echo ... extensiveTesting.s
 	@echo ... test1.obj
 	@echo ... test1.i
 	@echo ... test1.s

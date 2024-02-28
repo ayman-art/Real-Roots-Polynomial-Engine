@@ -43,6 +43,8 @@ C:/Projects/Real-Roots-Polynomial-Engine/build/PolyEngine/CMakeFiles/install/loc
 C:/Projects/Real-Roots-Polynomial-Engine/build/PolyEngine/CMakeFiles/install/strip.dir
 C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/CMakeFiles/Test1.dir
 C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/CMakeFiles/EngineTest.dir
+C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/CMakeFiles/ExtensiveTest.dir
+C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/CMakeFiles/ExecutedTest.dir
 C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/CMakeFiles/test.dir
 C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/CMakeFiles/edit_cache.dir
 C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/CMakeFiles/rebuild_cache.dir

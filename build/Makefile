@@ -574,6 +574,32 @@ EngineTest/fast:
 .PHONY : EngineTest/fast
 
 #=============================================================================
+# Target rules for targets named ExtensiveTest
+
+# Build rule for target.
+ExtensiveTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExtensiveTest
+.PHONY : ExtensiveTest
+
+# fast build rule for target.
+ExtensiveTest/fast:
+	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExtensiveTest.dir\build.make UnitTesting/CMakeFiles/ExtensiveTest.dir/build
+.PHONY : ExtensiveTest/fast
+
+#=============================================================================
+# Target rules for targets named ExecutedTest
+
+# Build rule for target.
+ExecutedTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExecutedTest
+.PHONY : ExecutedTest
+
+# fast build rule for target.
+ExecutedTest/fast:
+	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\ExecutedTest.dir\build.make UnitTesting/CMakeFiles/ExecutedTest.dir/build
+.PHONY : ExecutedTest/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -667,6 +693,8 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... EngineTest
+	@echo ... ExecutedTest
+	@echo ... ExtensiveTest
 	@echo ... Test1
 	@echo ... engine
 	@echo ... gmock

@@ -24,6 +24,18 @@
   "output": "UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.obj"
 },
 {
+  "directory": "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ExtensiveTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ExtensiveTest.dir\\extensiveTesting.cpp.obj -c C:\\Projects\\Real-Roots-Polynomial-Engine\\UnitTesting\\extensiveTesting.cpp",
+  "file": "C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/extensiveTesting.cpp",
+  "output": "UnitTesting/CMakeFiles/ExtensiveTest.dir/extensiveTesting.cpp.obj"
+},
+{
+  "directory": "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ExecutedTest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ExecutedTest.dir\\executedTest.cpp.obj -c C:\\Projects\\Real-Roots-Polynomial-Engine\\UnitTesting\\executedTest.cpp",
+  "file": "C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/executedTest.cpp",
+  "output": "UnitTesting/CMakeFiles/ExecutedTest.dir/executedTest.cpp.obj"
+},
+{
   "directory": "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/googletest-1.14.0/googlemock",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Projects\\Real-Roots-Polynomial-Engine\\UnitTesting\\googletest-1.14.0\\googlemock\\src\\gmock-all.cc",
   "file": "C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/googletest-1.14.0/googlemock/src/gmock-all.cc",
