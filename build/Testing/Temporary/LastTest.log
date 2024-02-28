@@ -1,20 +1,20 @@
-Start testing: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
+Start testing: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
 ----------------------------------------------------------
-1/1 Testing: Poly.Return1
-1/1 Test: Poly.Return1
-Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=Poly.Return1" "--gtest_also_run_disabled_tests"
+1/5 Testing: PolynomialTest.ConstructorTest1
+1/5 Test: PolynomialTest.ConstructorTest1
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=PolynomialTest.ConstructorTest1" "--gtest_also_run_disabled_tests"
 Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
-"Poly.Return1" start time: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolynomialTest.ConstructorTest1" start time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
 Output:
 ----------------------------------------------------------
 Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
-Note: Google Test filter = Poly.Return1
+Note: Google Test filter = PolynomialTest.ConstructorTest1
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from Poly
-[ RUN      ] Poly.Return1
-[       OK ] Poly.Return1 (0 ms)
-[----------] 1 test from Poly (0 ms total)
+[----------] 1 test from PolynomialTest
+[ RUN      ] PolynomialTest.ConstructorTest1
+[       OK ] PolynomialTest.ConstructorTest1 (0 ms)
+[----------] 1 test from PolynomialTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -23,8 +23,126 @@ Note: Google Test filter = Poly.Return1
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Poly.Return1" end time: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
-"Poly.Return1" time elapsed: 00:00:00
+"PolynomialTest.ConstructorTest1" end time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolynomialTest.ConstructorTest1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 27 11:45 „’— - «· ÊﬁÌ  «·—”„Ì
+2/5 Testing: PolynomialTest.ConstructorTest2
+2/5 Test: PolynomialTest.ConstructorTest2
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=PolynomialTest.ConstructorTest2" "--gtest_also_run_disabled_tests"
+Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
+"PolynomialTest.ConstructorTest2" start time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+Output:
+----------------------------------------------------------
+Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
+Note: Google Test filter = PolynomialTest.ConstructorTest2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PolynomialTest
+[ RUN      ] PolynomialTest.ConstructorTest2
+[       OK ] PolynomialTest.ConstructorTest2 (0 ms)
+[----------] 1 test from PolynomialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PolynomialTest.ConstructorTest2" end time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolynomialTest.ConstructorTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: PolynomialTest.SubstituteTest
+3/5 Test: PolynomialTest.SubstituteTest
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=PolynomialTest.SubstituteTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
+"PolynomialTest.SubstituteTest" start time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+Output:
+----------------------------------------------------------
+Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
+Note: Google Test filter = PolynomialTest.SubstituteTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PolynomialTest
+[ RUN      ] PolynomialTest.SubstituteTest
+C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\test1.cpp:22: Failure
+Expected equality of these values:
+  p.substitute(0)
+    Which is: 3
+  1
+
+[  FAILED  ] PolynomialTest.SubstituteTest (0 ms)
+[----------] 1 test from PolynomialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] PolynomialTest.SubstituteTest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"PolynomialTest.SubstituteTest" end time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolynomialTest.SubstituteTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: PolynomialTest.DerivateTest
+4/5 Test: PolynomialTest.DerivateTest
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=PolynomialTest.DerivateTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
+"PolynomialTest.DerivateTest" start time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+Output:
+----------------------------------------------------------
+Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
+Note: Google Test filter = PolynomialTest.DerivateTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PolynomialTest
+[ RUN      ] PolynomialTest.DerivateTest
+[       OK ] PolynomialTest.DerivateTest (0 ms)
+[----------] 1 test from PolynomialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PolynomialTest.DerivateTest" end time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolynomialTest.DerivateTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: PolynomialTest.DegreeTest
+5/5 Test: PolynomialTest.DegreeTest
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=PolynomialTest.DegreeTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
+"PolynomialTest.DegreeTest" start time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+Output:
+----------------------------------------------------------
+Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
+Note: Google Test filter = PolynomialTest.DegreeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PolynomialTest
+[ RUN      ] PolynomialTest.DegreeTest
+[       OK ] PolynomialTest.DegreeTest (0 ms)
+[----------] 1 test from PolynomialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PolynomialTest.DegreeTest" end time: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolynomialTest.DegreeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 28 18:24 „’— - «· ÊﬁÌ  «·—”„Ì

@@ -46,6 +46,7 @@ PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj: C:/Projects/Real-Roots-Polynomi
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/engine.h \
   C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/poly.h
 
 PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj: C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/poly.cpp \
@@ -249,8 +250,6 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/invoke.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/memoryfwd.h:
 
-C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_facets.tcc:
-
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_classes.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/vector.tcc:
@@ -335,6 +334,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
+C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/engine.h:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/basic_string.tcc:
@@ -344,6 +345,8 @@ C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/char_traits.h:
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/typeinfo:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/istream.tcc:
+
+C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/locale_facets.tcc:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/bits/localefwd.h:
 

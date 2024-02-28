@@ -1,3 +1,8 @@
 Poly.Return1 3 0.0301343
 Polynomial.Polynomial 1 0.0399219
+PolynomialTest.ConstructorTest1 8 0.0151236
+PolynomialTest.ConstructorTest2 8 0.0170663
+PolynomialTest.SubstituteTest 3 0.0314347
+PolynomialTest.DerivateTest 7 0.0223932
+PolynomialTest.DegreeTest 8 0.0163754
 ---

@@ -47,6 +47,7 @@ PolyEngine/CMakeFiles/engine.dir/engine.cpp.obj
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
  C:/MinGW/lib/gcc/x86_64-w64-mingw32/12.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
+ C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/engine.h
  C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine/poly.h
 
 PolyEngine/CMakeFiles/engine.dir/poly.cpp.obj

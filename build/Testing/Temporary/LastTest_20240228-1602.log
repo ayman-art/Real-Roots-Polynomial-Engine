@@ -1,0 +1,30 @@
+Start testing: Feb 28 18:26 „’— - «· ÊﬁÌ  «·—”„Ì
+----------------------------------------------------------
+5/5 Testing: PolynomialTest.DegreeTest
+5/5 Test: PolynomialTest.DegreeTest
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/Test1.exe" "--gtest_filter=PolynomialTest.DegreeTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
+"PolynomialTest.DegreeTest" start time: Feb 28 18:26 „’— - «· ÊﬁÌ  «·—”„Ì
+Output:
+----------------------------------------------------------
+Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
+Note: Google Test filter = PolynomialTest.DegreeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PolynomialTest
+[ RUN      ] PolynomialTest.DegreeTest
+[       OK ] PolynomialTest.DegreeTest (0 ms)
+[----------] 1 test from PolynomialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"PolynomialTest.DegreeTest" end time: Feb 28 18:26 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolynomialTest.DegreeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 28 18:26 „’— - «· ÊﬁÌ  «·—”„Ì
