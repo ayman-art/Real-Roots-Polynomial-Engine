@@ -561,6 +561,19 @@ Test1/fast:
 .PHONY : Test1/fast
 
 #=============================================================================
+# Target rules for targets named EngineTest
+
+# Build rule for target.
+EngineTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EngineTest
+.PHONY : EngineTest
+
+# fast build rule for target.
+EngineTest/fast:
+	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/build
+.PHONY : EngineTest/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -653,6 +666,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
+	@echo ... EngineTest
 	@echo ... Test1
 	@echo ... engine
 	@echo ... gmock

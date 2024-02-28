@@ -184,6 +184,44 @@ Test1/fast:
 	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\Test1.dir\build.make UnitTesting/CMakeFiles/Test1.dir/build
 .PHONY : Test1/fast
 
+# Convenience name for target.
+UnitTesting/CMakeFiles/EngineTest.dir/rule:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnitTesting/CMakeFiles/EngineTest.dir/rule
+.PHONY : UnitTesting/CMakeFiles/EngineTest.dir/rule
+
+# Convenience name for target.
+EngineTest: UnitTesting/CMakeFiles/EngineTest.dir/rule
+.PHONY : EngineTest
+
+# fast build rule for target.
+EngineTest/fast:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/build
+.PHONY : EngineTest/fast
+
+engineTest.obj: engineTest.cpp.obj
+.PHONY : engineTest.obj
+
+# target to build an object file
+engineTest.cpp.obj:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.obj
+.PHONY : engineTest.cpp.obj
+
+engineTest.i: engineTest.cpp.i
+.PHONY : engineTest.i
+
+# target to preprocess a source file
+engineTest.cpp.i:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.i
+.PHONY : engineTest.cpp.i
+
+engineTest.s: engineTest.cpp.s
+.PHONY : engineTest.s
+
+# target to generate assembly for a file
+engineTest.cpp.s:
+	cd /d C:\Projects\Real-Roots-Polynomial-Engine\build && $(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/engineTest.cpp.s
+.PHONY : engineTest.cpp.s
+
 test1.obj: test1.cpp.obj
 .PHONY : test1.obj
 
@@ -221,7 +259,11 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... EngineTest
 	@echo ... Test1
+	@echo ... engineTest.obj
+	@echo ... engineTest.i
+	@echo ... engineTest.s
 	@echo ... test1.obj
 	@echo ... test1.i
 	@echo ... test1.s

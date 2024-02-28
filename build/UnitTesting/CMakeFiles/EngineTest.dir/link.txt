@@ -1,0 +1,3 @@
+C:\cmake-3.28.3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\EngineTest.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\EngineTest.dir/objects.a @CMakeFiles\EngineTest.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\EngineTest.dir/objects.a -Wl,--no-whole-archive -o EngineTest.exe -Wl,--out-implib,libEngineTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\EngineTest.dir\linkLibs.rsp

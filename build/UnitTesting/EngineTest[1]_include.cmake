@@ -1,0 +1,5 @@
+if(EXISTS "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/EngineTest[1]_tests.cmake")
+  include("C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/EngineTest[1]_tests.cmake")
+else()
+  add_test(EngineTest_NOT_BUILT EngineTest_NOT_BUILT)
+endif()

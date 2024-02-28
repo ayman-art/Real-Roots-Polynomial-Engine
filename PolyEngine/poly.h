@@ -1,4 +1,9 @@
+#pragma once
+
+
 #include <vector>
+
+
 
 class Polynomial {
 public:

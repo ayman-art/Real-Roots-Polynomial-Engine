@@ -1,0 +1,1 @@
+-I"C:/Projects/Real-Roots-Polynomial-Engine" -I"C:/Projects/Real-Roots-Polynomial-Engine/PolyEngine" -isystem "C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/googletest-1.14.0/googletest/include" -isystem "C:/Projects/Real-Roots-Polynomial-Engine/UnitTesting/googletest-1.14.0/googletest"

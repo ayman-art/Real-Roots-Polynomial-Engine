@@ -1,8 +1,14 @@
 Poly.Return1 3 0.0301343
 Polynomial.Polynomial 1 0.0399219
-PolynomialTest.ConstructorTest1 8 0.0151236
-PolynomialTest.ConstructorTest2 8 0.0170663
-PolynomialTest.SubstituteTest 3 0.0314347
-PolynomialTest.DerivateTest 7 0.0223932
-PolynomialTest.DegreeTest 8 0.0163754
+PolynomialTest.ConstructorTest1 9 0.0159485
+PolynomialTest.ConstructorTest2 9 0.0185933
+PolynomialTest.SubstituteTest 4 0.0307575
+PolynomialTest.DerivateTest 8 0.0236991
+PolynomialTest.DegreeTest 9 0.0176633
+PolyEngineTest.SolveTest1 0 0
+PolyEngineTest.SolveTest2 0 0
+PolyEngineTest.BisectTest1 0 0
+PolyEngineTest.BisectTest2 0 0
+PolyEngineTest.PositiveInfinityTest 1 0.0213155
+PolyEngineTest.NegativeInfinityTest 1 0.0218164
 ---
