@@ -15,7 +15,11 @@ TEST(PolyEngineTest, SolveTest2) {
     double arr[] = {1, -3, 2, 0};
     Polynomial p(arr, 4);
     std::vector<double> v = {1, 2, 0};
-    ASSERT_EQ(PolyEngine::solve(p), v);
+    auto sol = PolyEngine::solve(p);
+
+    sort(sol.begin(), sol.end());
+    sort(v.begin(), v.end());
+    ASSERT_EQ(sol, v);
 }
 
 TEST(PolyEngineTest, BisectTest1) {

@@ -948,8 +948,8 @@ PolyEngine/CMakeFiles/engine.dir/clean:
 
 # All Build rule for target.
 UnitTesting/CMakeFiles/Test1.dir/all: PolyEngine/CMakeFiles/engine.dir/all
-UnitTesting/CMakeFiles/Test1.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 UnitTesting/CMakeFiles/Test1.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/all
+UnitTesting/CMakeFiles/Test1.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\Test1.dir\build.make UnitTesting/CMakeFiles/Test1.dir/depend
 	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\Test1.dir\build.make UnitTesting/CMakeFiles/Test1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=3,4 "Built target Test1"
@@ -976,8 +976,8 @@ UnitTesting/CMakeFiles/Test1.dir/clean:
 
 # All Build rule for target.
 UnitTesting/CMakeFiles/EngineTest.dir/all: PolyEngine/CMakeFiles/engine.dir/all
-UnitTesting/CMakeFiles/EngineTest.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 UnitTesting/CMakeFiles/EngineTest.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/all
+UnitTesting/CMakeFiles/EngineTest.dir/all: UnitTesting/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f UnitTesting\CMakeFiles\EngineTest.dir\build.make UnitTesting/CMakeFiles/EngineTest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Projects\Real-Roots-Polynomial-Engine\build\CMakeFiles --progress-num=1,2 "Built target EngineTest"

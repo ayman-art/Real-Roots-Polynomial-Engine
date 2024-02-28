@@ -109,11 +109,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@119afd1b4b1e0b324e77"
+			"id" : "gtest_main::@119afd1b4b1e0b324e77"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@119afd1b4b1e0b324e77"
+			"id" : "gtest::@119afd1b4b1e0b324e77"
 		}
 	],
 	"id" : "EngineTest::@07d7295041833dd16392",

@@ -7,16 +7,15 @@ std::vector<double> PolyEngine::solve(const Polynomial& p) {
         return std::vector<double>();
     }
 
-    else
-    if(p.getDegree() == 1) {
-        return std::vector<double>(1, -p.getCoefficients()[0] / p.getCoefficients()[1]);
+    else if(p.getDegree() == 1) {
+        return std::vector<double>(1, -p.getCoefficients()[1] / p.getCoefficients()[0]);
     }
 
     else {
         std::vector<double> optima = PolyEngine::solve(p.computeDerivate());
 
         std::vector<double> result;
-        for(int i = 0; i < optima.size() - 1; i++) {
+        for(int i = 0; i < (int)optima.size() - 1; i++) {
             double a = optima[i];
             double b = optima[i + 1];
             
@@ -64,31 +63,36 @@ std::optional<double> PolyEngine::bisect(const Polynomial& p, double a, double b
 }
 
 std::optional<double> PolyEngine::bisectWithPosInf(const Polynomial& p, double a, double epsilon) {
-    if(p.substitute(a) > 0) {
+    if(p.substitute(a) > 0 && p.computeDerivate().substitute(a) > 0 
+        && p.substitute(a) < 0 && p.computeDerivate().substitute(a) < 0){
         return std::nullopt;
     }
 
-    double l = a, r = l;
-    while(p.substitute(l) < 0) {
-        l = r;
-        r *= 2;
+    double delta = 1.0f;
+
+    double l = a;
+    while(p.substitute(l + delta) * p.substitute(l) > 0){
+        l = l + delta;
+        delta *= 2;
     }
 
-    return PolyEngine::bisect(p, l, r, epsilon);
+    return PolyEngine::bisect(p, l, l + delta, epsilon);
 
 
 }
 
 std::optional<double> PolyEngine::bisectWithNegInf(const Polynomial& p, double a, double epsilon) {
-    if(p.substitute(a) < 0) {
+    if(p.substitute(a) < 0 && p.computeDerivate().substitute(a) > 0
+        && p.substitute(a) > 0 && p.computeDerivate().substitute(a) < 0){
         return std::nullopt;
     }
 
-    double r = a, l = r;
-    while(p.substitute(r) > 0) {
-        r = l;
-        l *= 2;
+    double delta = 1.0f;
+
+    double r = a;
+    while(p.substitute(r) * p.substitute(r - delta) > 0){
+        r = r - delta;
     }
 
-    return PolyEngine::bisect(p, l, r, epsilon);
+    return PolyEngine::bisect(p, r - delta, r, epsilon);
 }

@@ -1,0 +1,14 @@
+PolynomialTest.ConstructorTest1 2 0.00974335
+PolynomialTest.ConstructorTest2 2 0.0149512
+PolynomialTest.SubstituteTest 2 0.0132151
+PolynomialTest.DerivateTest 2 0.0138877
+PolynomialTest.DegreeTest 2 0.0116632
+PolyEngineTest.SolveTest1 0 0
+PolyEngineTest.SolveTest2 0 0
+PolyEngineTest.BisectTest1 2 0.0108034
+PolyEngineTest.BisectTest2 2 0.0115812
+PolyEngineTest.PositiveInfinityTest 2 0.011747
+PolyEngineTest.NegativeInfinityTest 2 0.0126129
+---
+PolyEngineTest.SolveTest1
+PolyEngineTest.SolveTest2

@@ -1,19 +1,19 @@
-Start testing: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì
+Start testing: Feb 28 21:10 „’— - «· ÊﬁÌ  «·—”„Ì
 ----------------------------------------------------------
-11/11 Testing: PolyEngineTest.NegativeInfinityTest
-11/11 Test: PolyEngineTest.NegativeInfinityTest
-Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/EngineTest.exe" "--gtest_filter=PolyEngineTest.NegativeInfinityTest" "--gtest_also_run_disabled_tests"
+7/11 Testing: PolyEngineTest.SolveTest2
+7/11 Test: PolyEngineTest.SolveTest2
+Command: "C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting/EngineTest.exe" "--gtest_filter=PolyEngineTest.SolveTest2" "--gtest_also_run_disabled_tests"
 Directory: C:/Projects/Real-Roots-Polynomial-Engine/build/UnitTesting
-"PolyEngineTest.NegativeInfinityTest" start time: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolyEngineTest.SolveTest2" start time: Feb 28 21:10 „’— - «· ÊﬁÌ  «·—”„Ì
 Output:
 ----------------------------------------------------------
 Running main() from C:\Projects\Real-Roots-Polynomial-Engine\UnitTesting\googletest-1.14.0\googletest\src\gtest_main.cc
-Note: Google Test filter = PolyEngineTest.NegativeInfinityTest
+Note: Google Test filter = PolyEngineTest.SolveTest2
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from PolyEngineTest
-[ RUN      ] PolyEngineTest.NegativeInfinityTest
-[       OK ] PolyEngineTest.NegativeInfinityTest (0 ms)
+[ RUN      ] PolyEngineTest.SolveTest2
+[       OK ] PolyEngineTest.SolveTest2 (0 ms)
 [----------] 1 test from PolyEngineTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -23,8 +23,8 @@ Note: Google Test filter = PolyEngineTest.NegativeInfinityTest
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"PolyEngineTest.NegativeInfinityTest" end time: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì
-"PolyEngineTest.NegativeInfinityTest" time elapsed: 00:00:00
+"PolyEngineTest.SolveTest2" end time: Feb 28 21:10 „’— - «· ÊﬁÌ  «·—”„Ì
+"PolyEngineTest.SolveTest2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 28 19:17 „’— - «· ÊﬁÌ  «·—”„Ì
+End testing: Feb 28 21:10 „’— - «· ÊﬁÌ  «·—”„Ì
