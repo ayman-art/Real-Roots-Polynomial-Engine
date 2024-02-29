@@ -20,7 +20,9 @@ int main(int argc, char **argv) {
     }
     std::cout << std::endl;
 
-    Polynomial res4 = PolyEngine::solve(Polynomial({1,4,35}));
+    auto poly = Polynomial({1,4,35});
+
+    Polynomial res4 = PolyEngine::solve(poly);
     for(auto x : res4.getCoefficients()) {
         std::cout << x << " ";
     }

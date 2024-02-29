@@ -97,6 +97,7 @@ std::optional<double> PolyEngine::bisectWithNegInf(const Polynomial& p, double a
     double r = a;
     while(p.substitute(r) * p.substitute(r - delta) > 0){
         r = r - delta;
+        delta *= 2;
     }
 
     return PolyEngine::bisect(p, r - delta, r, epsilon);
